@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: onebitcode_exchance_development
+  database: currency_converter_development
 
 test:
   <<: *default
-  database: onebitcode_exchance_test
+  database: currency_converter_test
 
 production:
   <<: *default
-  database: onebitcode_exchance_production
+  database: currency_converter_production
